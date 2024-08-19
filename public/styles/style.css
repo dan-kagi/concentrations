@@ -2,7 +2,10 @@ body {
   background-color: green;
   margin: 0px;
 }
-
+.enum {
+  color: yellow;
+  font-weight: bold;
+}
 header {
   background-color: white;
   display: flex;

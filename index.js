@@ -2,7 +2,7 @@ const questions = [
   {
     id: 1,
     question:
-      'Em 5 L de uma solução aquosa de cloreto de sódio há 50 g deste soluto. Calcule a concentração desta solução em g / L. Em seguida determine: i) a massa de cloreto de sódio em 400 mL de solução. ii) que volume de solução, em mL, contém 2 g de soluto.',
+      '<span class="enum">(Concentração Comum)</span> Em 5 L de uma solução aquosa de cloreto de sódio há 50 g deste soluto. Calcule a concentração desta solução em g / L. Em seguida determine: i) a massa de cloreto de sódio em 400 mL de solução. ii) que volume de solução, em mL, contém 2 g de soluto.',
     answers: [
       {
         variable: 'C',
@@ -28,7 +28,7 @@ const questions = [
   {
     id: 2,
     question:
-      'Em 2 L de uma solução aquosa de hidróxido de sódio há 16 g deste soluto. Calcule a concentração desta solução em g / L. Em seguida: a) determine a massa de hidróxido de sódio em 200 mL de solução. b) que volume, em mL, de solução contém 4 g deste soluto.',
+      '<span class="enum">(Concentração Comum)</span> Em 2 L de uma solução aquosa de hidróxido de sódio há 16 g deste soluto. Calcule a concentração desta solução em g / L. Em seguida: a) determine a massa de hidróxido de sódio em 200 mL de solução. b) que volume, em mL, de solução contém 4 g deste soluto.',
     answers: [
       {
         variable: 'C',
@@ -54,7 +54,7 @@ const questions = [
   {
     id: 3,
     question:
-      'Considere uma solução estoque de nitrato de amônio de concentração igual a 80 g / L. I) Precisa-se de 10 g de nitrato de amônio. Portanto, que volume de solução, em mL, deve-se retirar da solução estoque? II) Determine qual seria a massa (Kg) deste soluto em 50 L de solução.',
+      '<span class="enum">(Concentração Comum)</span> Considere uma solução estoque de nitrato de amônio de concentração igual a 80 g / L. I) Precisa-se de 10 g de nitrato de amônio. Portanto, que volume de solução, em mL, deve-se retirar da solução estoque? II) Determine qual seria a massa (Kg) deste soluto em 50 L de solução.',
     answers: [
       {
         variable: 'V',
@@ -74,7 +74,7 @@ const questions = [
   {
     id: 4,
     question:
-      'Considere uma solução de sulfato de sódio na concentração de 20 g / L. I) Que volume, em mL, de solução contém 1 g de soluto? II) Que massa de soluto está presente em 200 mL de solução?',
+      '<span class="enum">(Concentração Comum)</span> Considere uma solução de sulfato de sódio na concentração de 20 g / L. I) Que volume, em mL, de solução contém 1 g de soluto? II) Que massa de soluto está presente em 200 mL de solução?',
     answers: [
       {
         variable: 'V',
@@ -94,7 +94,7 @@ const questions = [
   {
     id: 5,
     question:
-      'Que massa de permanganato de potássio é necessária para se preparar 500 mL de solução aquosa na concentração de 5 g / L?',
+      '<span class="enum">(Concentração Comum)</span> Que massa de permanganato de potássio é necessária para se preparar 500 mL de solução aquosa na concentração de 5 g / L?',
     answers: [
       {
         variable: 'm',
@@ -108,7 +108,7 @@ const questions = [
   {
     id: 6,
     question:
-      'Que massa de cloreto de cálcio, em mg, é necessária para se preparar 200 mL de solução aquosa na concentração de 2,5 g / L? Dados: 1g - 1000mg.',
+      '<span class="enum">(Concentração Comum)</span> Que massa de cloreto de cálcio, em mg, é necessária para se preparar 200 mL de solução aquosa na concentração de 2,5 g / L? Dados: 1g - 1000mg.',
     answers: [
       {
         variable: 'm',
@@ -122,7 +122,7 @@ const questions = [
   {
     id: 7,
     question:
-      'Uma solução de hidróxido de sódio foi preparada dissolvendo-se 8 g deste soluto em certo volume de água. Esta porção foi transferida para um balão volumétrico de 500 mL, então este volume foi completado com água. I) Calcule a molaridade desta solução (mol / L). II) Determine a quantidade de soluto em 3 L de solução. Dados: Massa Molar do Hidróxido de Sódio = 40 g / mol.',
+      '<span class="enum">(Molaridade)</span> Uma solução de hidróxido de sódio foi preparada dissolvendo-se 8 g deste soluto em certo volume de água. Esta porção foi transferida para um balão volumétrico de 500 mL, então este volume foi completado com água. I) Calcule a molaridade desta solução (mol / L). II) Determine a quantidade de soluto em 3 L de solução. Dados: Massa Molar do Hidróxido de Sódio = 40 g / mol.',
     answers: [
       {
         variable: 'M',
@@ -142,7 +142,7 @@ const questions = [
   {
     id: 8,
     question:
-      'Uma permanganato de potássio foi preparada dissolvendo-se 7,9 g deste soluto em certo volume de água. Esta porção foi transferida para um balão volumétrico de 250 mL, então este volume foi completado com água. I) Calcule a molaridade desta solução (mol / L). II) Determine a quantidade de soluto em 20 mL de solução. Dados: Massa Molar do Permanganato de Potássio = 158 g / mol.',
+      '<span class="enum">(Molaridade)</span> Uma permanganato de potássio foi preparada dissolvendo-se 7,9 g deste soluto em certo volume de água. Esta porção foi transferida para um balão volumétrico de 250 mL, então este volume foi completado com água. I) Calcule a molaridade desta solução (mol / L). II) Determine a quantidade de soluto em 20 mL de solução. Dados: Massa Molar do Permanganato de Potássio = 158 g / mol.',
     answers: [
       {
         variable: 'M',
@@ -162,7 +162,7 @@ const questions = [
   {
     id: 9,
     question:
-      'Determine a massa de glicose, em mg, em 200 mL de solução 0,02M. Dados: C = 12u, H = 1u, O = 16u.',
+      '<span class="enum">(Molaridade)</span> Determine a massa de glicose, em mg, em 200 mL de solução 0,02M. Dados: C = 12u, H = 1u, O = 16u.',
     answers: [
       {
         variable: 'm',
@@ -176,7 +176,7 @@ const questions = [
   {
     id: 10,
     question:
-      'Determine a massa de nitrato de amônio em 2 L de solução 0,4M. Dados: Massa Molar do Nitrato de Amônio = 80 g / mol.',
+      '<span class="enum">(Molaridade)</span> Determine a massa de nitrato de amônio em 2 L de solução 0,4M. Dados: Massa Molar do Nitrato de Amônio = 80 g / mol.',
     answers: [
       {
         variable: 'm',
@@ -190,7 +190,7 @@ const questions = [
   {
     id: 11,
     question:
-      'Determine a massa de hidróxido de sódio necessária para preparar 500 mL de solução na concentração de 0,5 mol / L. Dados: Pureza do hidróxido de sódio = 80%; Massa Molar do hidróxido de sódio = 40 g / mol.',
+      '<span class="enum">(Molaridade - Preparo de Soluções)</span> Determine a massa de hidróxido de sódio necessária para preparar 500 mL de solução na concentração de 0,5 mol / L. Dados: Pureza do hidróxido de sódio = 80%; Massa Molar do hidróxido de sódio = 40 g / mol.',
     answers: [
       {
         variable: 'm',
@@ -204,7 +204,7 @@ const questions = [
   {
     id: 12,
     question:
-      'Determine a massa de permanganato de potássio necessária para preparar 300 mL de solução na concentração de 0,3 mol / L. Dados: Pureza do permanganato de potássio = 90%; Massa Molar do permanganato de potássio = 158 g / mol.',
+      '<span class="enum">(Molaridade - Preparo de Soluções)</span> Determine a massa de permanganato de potássio necessária para preparar 300 mL de solução na concentração de 0,3 mol / L. Dados: Pureza do permanganato de potássio = 90%; Massa Molar do permanganato de potássio = 158 g / mol.',
     answers: [
       {
         variable: 'm',
@@ -232,7 +232,7 @@ const questions = [
   {
     id: 14,
     question:
-      'Que volume, em mL, deve ser retirado de uma solução de hidróxido de potássio 2M para preparar 250 mL de solução na concentração de 0,1M',
+      '<span class="enum">(Molaridade - Preparo de Soluções - Diluição)</span> Que volume, em mL, deve ser retirado de uma solução de hidróxido de potássio 2M para preparar 250 mL de solução na concentração de 0,1M',
     answers: [
       {
         variable: 'V',
@@ -246,7 +246,7 @@ const questions = [
   {
     id: 15,
     question:
-      '(UESPI-mod) Na preparação de 200 ml de uma solução aquosa 1 M de ácido clorídrico, um estudante dispõe de uma solução aquosa 5 M desse ácido. Qual o volume da solução inicial que será utilizado?',
+      '<span class="enum">(Molaridade - Preparo de Soluções - Diluição)</span> (UESPI-mod) Na preparação de 200 ml de uma solução aquosa 1 M de ácido clorídrico, um estudante dispõe de uma solução aquosa 5 M desse ácido. Qual o volume da solução inicial que será utilizado?',
     answers: [
       {
         variable: 'V',
