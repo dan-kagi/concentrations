@@ -1,0 +1,123 @@
+body {
+  background-color: green;
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+h2 {
+  color: white;
+}
+
+.formula {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.card {
+  padding: 10px;
+  color: white;
+  width: 45%;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checkParagraph {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.answers {
+  padding: 5px;
+  font-weight: bold;
+  color: black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: rgb(163, 161, 161);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.answer {
+  margin: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  background-color: white;
+  color: black;
+  width: 28px;
+}
+
+p {
+  margin: 0px;
+}
+
+img {
+  margin: 5px;
+  width: 100px;
+}
+
+button {
+  margin: 10px;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+button:hover {
+  margin: 10px;
+  background-color: rgb(176, 21, 142);
+  color: white;
+  border: 2px solid rgb(176, 21, 142);
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
+  .formula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .comum,
+  .molar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .answers {
+    font-size: 0.8rem;
+  }
+}
